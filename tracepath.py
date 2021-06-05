@@ -7,7 +7,7 @@ mouse = MouseController()
 
 def salt():
     # generate random 3 digit decimal past thousands place
-    return (random.randint(999)/100000)
+    return (random.randint(999)/1000000)
 
 def move(x,y):
     # move mouse to coords
