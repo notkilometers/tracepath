@@ -6,7 +6,7 @@ from pynput.mouse import Button, Controller as MouseController
 mouse = MouseController()
 
 def salt():
-    # generate random 3 digit decimal past thousands place
+    # generate random 3 digit decimal past ten thousands place
     return (random.randint(999)/1000000)
 
 def move(x,y):
